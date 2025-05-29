@@ -18,7 +18,11 @@ document.querySelector('#app').innerHTML = `
     <p class="read-the-docs">
       Click on the Vite logo to learn more
     </p>
+    <div style="margin-top: 40px;">
+      <button id="downloadBtn">Скачать PDF</button>
+    </div>
   </div>
 `
+
 
 setupCounter(document.querySelector('#counter'))
